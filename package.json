@@ -1,9 +1,19 @@
 {
+  "name": "csv2json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yokurang/Csv2Json"
+  },
+  "homepage": "https://yokurang.github.io/Csv2Json",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "vite": "^2.9.6",
     "vite-plugin-elm": "^2.6.1"
   },
   "scripts": {
+    "build": "rimraf ./build && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite"
   }
 }
