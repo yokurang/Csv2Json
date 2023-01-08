@@ -1,4 +1,4 @@
-# FriendlyJSONConverter
+# Csv2Json
 An Elm web application that converts CSV files to JSON files that does not require you to upload your (potentially confidential) files.
 
 You can web application using this link: https://yokurang.github.io/Csv2Json/
